@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.page-header .page-header-title {
+  font-weight: 700;
+  color: #464ea3;
+  font-size: 2rem;
+  letter-spacing: .2em;
+  padding: 0 1.75rem 2rem;
+}
+
+.page-header .page-header-divider {
+  display : flex;
+  height: .4rem;
+  padding:0 1.75rem;
+}
+
+.page-contents {
+  margin:1.5rem 1.75rem;
+}
+
+.page-contents-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1.75rem;
+  text-align: left;
+}
+
+.footer-divider {
+  display: flex;
+  height: .4rem;
+}
+
+
+
+.nav {
+  @apply w-full flex items-center py-6 pb-12;
+}
+
+.footer {
+  @apply mt-10 w-full relative ml-7;
+}
+
+.menu-item {
+  @apply font-bold text-xl mx-16 my-4;
+}
+
+.brand-thumbnail {
+  @apply bg-center bg-cover transition-shadow;
+  @apply cursor-pointer w-44 h-44;
+  margin-bottom : 15px;
+}
+
+.xl-bold {
+  @apply font-bold text-xl;
+}
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+
+
+
