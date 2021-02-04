@@ -7,7 +7,7 @@ const Nav = () => (
       <div className="inline-block">
         <Link href="/">
           <li className="menu-item font-serif cursor-pointer">
-            AWESOME FOOD STORE
+            FOOD STORE
           </li>
         </Link>
       </div>
